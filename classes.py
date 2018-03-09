@@ -1,11 +1,10 @@
 class Table:
 
-    n_chairs = 4
     n_sides = 4
-    n_legs = 0
 
     def __init__(self, n_legs):
         self.n_legs = n_legs
+        self.n_chairs = 4
 
     def set_chairs(self, n_chairs):
         self.n_chairs = n_chairs
