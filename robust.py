@@ -8,3 +8,6 @@ while(True):
         continue
     else:
         break
+
+
+raise Exception("arguments")
