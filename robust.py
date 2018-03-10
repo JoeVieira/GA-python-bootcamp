@@ -1,3 +1,7 @@
+age = input("Please enter your age: ")
+if age.isdigit():
+    print(age)
+
 age = int(input("Please enter your age: "))
 
 while(True):
