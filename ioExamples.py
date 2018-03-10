@@ -1,20 +1,23 @@
 # output examples
-print('We are the {} who say "{}!"'.format('knights', 'Ni'))
-print('We are the {1} who say "{0}!"'.format('knights', 'Ni'))
+#print('We are the {} who say "{}!"'.format('knights', 'Ni'))
+#print('We are the {1} who say "{0}!"'.format('knights', 'Ni'))
 
-table = {'Joe': 4127, 'Jack': 4098, 'Bob': 8637678}
-print('Joe: {Joe:d}; Jack: {Jack:d}; Bob: {Bob:d}'.format(**table))
+#table = {'Joe': 4127, 'Jack': 4098, 'Bob': 8637678}
+#print('Joe: {Joe:d}; Jack: {Jack:d}; Bob: {Bob:d}'.format(**table))
 # and you could loop also
 
 # file input
-f = open('workfile', 'r')
-for l in f:
-    print(l, end='')  # we have to do this otherwise the new line character is sent twice, any idea why?
+# f = open('workfile', 'r')
+# for l in f:
+#     print(l, end='')  # we have to do this otherwise the new line character is sent twice, any idea why?
+#
+#
+# f.read()
+# f.seek(0)  # seek? move the file pointer to the first byte in the file
 
-f.seek(0)  # seek? move the file pointer to the first byte in the file
-
-whole_file = f.read()
-print(whole_file)
+#whole_file = f.read()
+#print(whole_file)
 
 f = open('writefile', 'w')
 f.write("A bunch of text!")
+f.write("more stuff")
