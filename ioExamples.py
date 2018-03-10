@@ -15,3 +15,6 @@ f.seek(0)  # seek? move the file pointer to the first byte in the file
 
 whole_file = f.read()
 print(whole_file)
+
+f = open('writefile', 'w')
+f.write("A bunch of text!")
